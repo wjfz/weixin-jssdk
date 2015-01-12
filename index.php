@@ -36,7 +36,6 @@ function make_signature($nonceStr,$timestamp,$jsapi_ticket,$url)
 
 function make_ticket($appId,$appsecret)
 {
-	return 'bxLdikRXVbTPdHSM05e5uyVZ3ffhe_UwghujcQF_hnYv2iwvsyAxtf9kgakXuW2YYJnKktEN_30XPGD7SaKxVA';
 	// 这里要对tiket进行检测，避免api请求超额
 	$TOKEN_URL="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$appId."&secret=".$appsecret;
 	$json = file_get_contents($TOKEN_URL);
