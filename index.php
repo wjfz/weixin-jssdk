@@ -50,7 +50,7 @@ function make_ticket($appId,$appsecret)
 			fwrite($fp, json_encode($data));
 			fclose($fp);
 		}
-	} else {
+	}else{
 		$access_token = $data->access_token;
 	}
 
@@ -68,7 +68,7 @@ function make_ticket($appId,$appsecret)
 			fwrite($fp, json_encode($data));
 			fclose($fp);
 		}
-	} else {
+	}else{
 		$ticket = $data->jsapi_ticket;
 	}
 
