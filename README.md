@@ -6,8 +6,8 @@
 
 ----------------
 
-index.php：扒的官方demo
-demo.php： 我实际测试成功的demo
+weixin-demo：扒微信官方的demo，功能比较全
+my-demo：    我实际测试成功的demo，只用到了分享功能
 
 ----------------
 
