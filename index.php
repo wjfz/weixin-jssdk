@@ -253,5 +253,5 @@ function make_ticket($appId,$appsecret)
 	  ]
   });
 </script>
-<script src="demo.js"> </script>
+<script src="demo.js"></script>
 </html>
